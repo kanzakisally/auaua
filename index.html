@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="janken.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>じゃんけん</h1>
+	<h2>あなたの手を選択してください</h2>
+	<table>
+		<tr>
+			<td><img src="img/20171223192540.jpg" onclick="janken(0)"></td>
+			<td><img src="img/20171223192617.jpg" onclick="janken(1)"></td>
+			<td><img src="img/20171223192619.jpg" onclick="janken(2)"></td>
+		</tr>
+	</table>
+	<hr>
+	<table>
+		<tr>
+			<th>あなたの手</th>
+			<th>コンピューターの手</th>
+		</tr>
+		<tr>
+			<td><img src="" id="userImg"></td>
+			<td><img src="" id="pcImg"></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="res">
+				<p id ="result"></p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
